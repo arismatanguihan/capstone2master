@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+/*
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}*/
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+#defaultBG {
+  background-image: url("image/bg8.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+ /* background-size: 600px 768px;*/
+
+}
+
+
+
+#addBookBG {
+  background-image: url("image/bg1.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+}
+
+#bookBG{
+  background-image: url("image/bg4.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+   /* background-size: 600px 768px;*/
+
+}
+
+#cartBG{
+  background-image: url("image/bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+#pendingBG{
+  background-image: url("image/bg7.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+}
+
+#acceptBG{
+  background-image: url("image/bg3.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+}
+
+
+#declineBG{
+   background-image: url("image/bg5.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  background-size: 400px 800px;
+}
+
+/*@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
